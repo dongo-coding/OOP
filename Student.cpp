@@ -56,3 +56,25 @@ int main() {
     s2.display();
     return 0;
 }
+
+
+
+
+
+#03
+#include <bits/stdc++.h>
+using namespace std;
+class Student {
+    private:
+    string name;
+    int age;
+    string gender;
+    double gpa;
+    public:
+    Student(){
+
+    }
+    void display(){
+
+    }
+};
