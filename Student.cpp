@@ -9,7 +9,7 @@ public:
     int age;
 
     void getInformation(){
-        cin>>name;
+        cin>>name;                       //only using 'public' objective
         cin>>age;
     }
 
@@ -40,7 +40,7 @@ class Student {
     public:
     Student(string name, int age){
         this->name=name;
-        this->age=age;
+        this->age=age;                              //using 'private' objective to package 'name'. Using 'this' to reach to the element has the same name
     }
     void display(){
         cout<<"Name: "<<name<<endl;
